@@ -1,0 +1,123 @@
+body {
+    background-color: #f2f0f5;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* ajustes da página */
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    /* Define um espaçamento entre os elementos */
+    align-items: center;
+    width: 90vw;
+}
+
+.content-info {
+    width: 600px;
+}
+
+.content-login {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* 1 rem = 16px */
+}
+
+.content-login-box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px, rgb(0 0 0 / 10%) 0px 8px 16px;
+}
+
+.inputs {
+    background-color: #e9e8e87c;
+    padding: 20px;
+    border-radius: 5px;
+    height: 20px;
+    outline: none;
+    border: 1px solid #f2f0f5;
+    width: 90%;
+    font-size: 20px;
+    color: #1d2129;
+}
+
+input:focus{
+    border-color: #1661ec;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    transition:.2s;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width:100%;
+}
+
+a{
+    color: #1661ec;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid #e0d9d9;
+}
+
+.btn-enter {
+    width:100%;
+    background-color: #1661ec;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn-enter:hover{
+    background-color: #0d42a5;
+}
+
+.btn-create-account {
+    background-color: #08da08;
+    font-size: large;
+    font-weight: bolder;
+    width:60%;
+    cursor: pointer;
+}
+
+.btn-create-account:hover{
+    background-color: #059c05;
+}
+
+h1 {
+    color: #1661ec;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+p{
+text-align: center;
+}
